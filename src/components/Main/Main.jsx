@@ -6,7 +6,6 @@ import Lookbook from './Lookbook';
 const Main = () => {
     return(
         <main class="fashion-content">
-            <hr/>
             <Bar/>
             <Content />
             <hr/>

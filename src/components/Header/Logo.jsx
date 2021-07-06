@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 const Logo = () => {
     return(
         <div className="fashion-header__logo">
-            <a href="index.html"><span className="title">avenue</span> fashion</a>
+            <Link to="/home"><span className="title">avenue</span> fashion</Link>
         </div>
     )
 }
