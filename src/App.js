@@ -1,12 +1,16 @@
 import React from 'react'
 
+//Static
 import './App.css';
+
+//Components
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
 import ItemMain from './components/ShopItem/ItemMain';
 import Login from './components/Login/Login.jsx';
 
+//Modules
 import {Route, Redirect} from "react-router-dom";
 
 function App() {

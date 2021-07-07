@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderComponent = () => {
     return(
-        <div class="fashion-login__header">
+        <div class="fashion-header__header">
             <div class="fashion-login__headtext container">
                 <div class="fashion-login__title">
                     <span>main</span> title

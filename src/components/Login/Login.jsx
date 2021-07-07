@@ -3,7 +3,7 @@ import HeaderComponent from '../HeaderComponent/HeaderComponent';
 
 const Login = () => {
     return(
-        <main class="fashion-login">
+        <main class="fashion-block">
         	<HeaderComponent />
             <div class="fashion-login__block">
             	<div class="fashion-login__con container">

@@ -12,9 +12,8 @@ const Item = () => {
                     <img src={planeJPG} alt="img"/>
                 </picture>
             </div>
-            <h1><b>Title of the item</b></h1>
-            <h3>Price: 70$</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus, cumque perferendis architecto quam assumenda animi deleniti impedit aut ab.</p>
+            <h1 className="fashion-content__item-title">Title of the item <span className="fashion-content__item-price">70$</span></h1>
+            <p className="fashion-content__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus, cumque perferendis architecto quam assumenda animi deleniti impedit aut ab.</p>
             <div class="fashion-content__item-btn">
                 <Link to="/item">View</Link>
                 <button>Buy</button>
